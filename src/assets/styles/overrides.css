@@ -1,0 +1,43 @@
+/* Overrides — loaded after vue-material */
+
+a,
+a:hover,
+a:focus,
+a:active,
+a:visited,
+.router-link-active,
+.router-link-exact-active {
+  text-decoration: none !important;
+}
+
+/* Neutralizar estilos azules de vue-material en la navegación */
+.navbar a:not(.md-button),
+.navbar a:not(.md-button):hover,
+.navbar a:not(.md-button):focus,
+.navbar a:not(.md-button):active,
+.logo,
+.logo:hover,
+.logo:focus,
+.logo:active,
+.nav-btn,
+.nav-btn:hover,
+.nav-btn:focus,
+.nav-btn:active {
+  color: var(--color-text) !important;
+  text-decoration: none !important;
+  outline: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+.nav-btn:hover,
+.nav-btn:focus {
+  color: var(--color-primary) !important;
+}
+
+.navbar a::after,
+.logo::after,
+.nav-btn::after {
+  display: none !important;
+  content: none !important;
+}
