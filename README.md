@@ -1,9 +1,4 @@
 # Fruit Shop
-
-<p align="center">
-  <img src="docs/cover.png" alt="Fruit Shop — catálogo de frutas frescas" width="100%">
-</p>
-
 Tienda online de frutas frescas construida con Vue.js. Permite explorar el catálogo, gestionar un carrito de compra, autenticarse y completar el proceso de pago, con soporte multi-moneda (USD / EUR).
 
 ## Demostración
